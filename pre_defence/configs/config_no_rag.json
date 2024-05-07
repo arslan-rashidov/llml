@@ -1,0 +1,1 @@
+{"classes": {"sexist or racist sentiment message": 1, "not sexist and not racist sentiment message": 0}, "texts_path": "pre_defence/data/random_texts.csv", "target_column": "text", "save_preds_path": "pre_defence/labelled_data/preds_no_rag.txt", "part_start": null, "with_rag": false}
