@@ -1,0 +1,1 @@
+embedddings_model_name = "intfloat/e5-large-unsupervised"
