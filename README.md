@@ -1,4 +1,4 @@
-cd /tmp
+```cd /tmp
 curl https://repo.anaconda.com/archive/Anaconda3-2024.02-1-Linux-x86_64.sh --output anaconda.sh
 bash anaconda.sh
 source ~/.bashrc
@@ -10,4 +10,4 @@ pip install -q -U git+https://github.com/huggingface/transformers.git@v4.35-rele
 pip install -q -U trl accelerate git+https://github.com/huggingface/peft.git
 pip install -q datasets bitsandbytes wandb
 
-uvicorn src.service.app:app --reload
+uvicorn src.service.app:app --reload```
